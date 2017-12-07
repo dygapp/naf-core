@@ -1,0 +1,28 @@
+{
+  "name": "naf-core",
+  "version": "1.0.1",
+  "description": "nodejs app framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dygapp/naf-core.git"
+  },
+  "author": "dyg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dygapp/naf-core/issues"
+  },
+  "homepage": "https://github.com/dygapp/naf-core#readme",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "is-type-of": "^1.2.0"
+  }
+}
