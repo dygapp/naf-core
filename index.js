@@ -1,7 +1,7 @@
 'use strict';
 
-const NafError = require('./lib/naf-error')
+const Error = require('./lib/naf-error')
 
 module.exports = {
-  NafError
+  Error,
 };
