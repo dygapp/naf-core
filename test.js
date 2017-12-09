@@ -1,13 +1,13 @@
 'use strict';
 
-const { NafError } = require('./index')
+const { NafError, ErrorCode } = require('./index').Error;
 
-try{
-  throw new NafError('test error!');
-}catch(err){
-  if(err instanceof NafError){
+try {
+  throw new NafError(ErrorCode.BUSINESS);
+} catch (err) {
+  if (err instanceof NafError) {
     console.log(`catch NafError: ${err.errcode} - ${err.errmsg}`);
-  }else{
+  } else {
     console.error(err);
   }
 }
