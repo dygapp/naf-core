@@ -1,6 +1,6 @@
 {
   "name": "naf-core",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "description": "nodejs app framework",
   "main": "index.js",
   "scripts": {
