@@ -1,6 +1,6 @@
 {
   "name": "naf-core",
-  "version": "0.0.19",
+  "version": "0.0.21",
   "description": "nodejs app framework",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "is-type-of": "^1.2.0"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.116",
     "eslint": "^4.13.0",
     "eslint-config-egg": "^5.1.1"
   }
