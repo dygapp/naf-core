@@ -7,6 +7,8 @@ export class Util {
   static isMobile(val: string): boolean;
 
   static isNullOrUndefined(val: any): boolean;
+
+  static toBoolean(val: any): boolean;
 }
 
 declare namespace Error {
