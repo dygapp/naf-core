@@ -37,6 +37,7 @@ declare namespace Error {
     declare var SERVICE_FAULT: number;
     declare var DATABASE_FAULT: number;
     declare var FILE_FAULT: number;
+    declare var USER_NOT_BIND: number;
     declare var BUSINESS: number;
   }
 }
