@@ -1,9 +1,10 @@
 {
   "name": "naf-core",
-  "version": "0.0.27",
-  "description": "nodejs app framework",
-  "main": "index.js",
+  "version": "0.1.2",
+  "description": "naf util core lib",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src -d lib",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,11 +25,14 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.116",
-    "eslint": "^4.13.0",
-    "eslint-config-egg": "^5.1.1"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@types/lodash": "^4.14.120",
+    "eslint": "^5.12.1",
+    "eslint-config-egg": "^7.1.0"
   }
 }
